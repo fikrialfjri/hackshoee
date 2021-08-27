@@ -1,0 +1,25 @@
+<%- include("../partials/head.ejs", {href: "http://localhost:3000/css/admin/admin-login.css" ,
+    title: "Login : HackShoee" }) %>
+
+    <body>
+        <div class="main-container">
+            <h1>Login</h1>
+            <form action="/admin" method="POST">
+                <div class="form">
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <input type="password" name="password" class="form-control" id="inputPassword">
+                    </div>
+                    <div class="mb-3 submit-btn">
+                        <input class="btn btn-warning" type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+
+    </html>

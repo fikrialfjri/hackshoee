@@ -1,0 +1,49 @@
+<%- include("../../partials/head.ejs", {href: "http://localhost:3000/css/products/products-shop.css" ,
+    title: "Shop | HackShoee" }) %>
+
+    <body>
+        <%- include("../../partials/users/navigation.ejs") %>
+            <div class="main-container">
+                <div class="shop-page">
+                    <div class="img-container">
+                        <img src="<%= data.img %>" alt="<%= data.name %>">
+                    </div>
+                    <div class="main">
+                        <div class="title">
+                            <h1>
+                                <%= data.name %>
+                            </h1>
+                            <div class="price">
+                                <p>
+                                    <%= data.price %>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ea sint necessitatibus
+                                pariatur harum, modi a reiciendis accusamus dignissimos cumque!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="category">
+                                <p>
+                                    <span>Size</span> : <%= data.size %>
+                                        <br>
+                                        <span>Stock</span> : <%= data.stock %>
+                                            <br>
+                                            <span>Category</span> : <%= data.type %>
+                                </p>
+                            </div>
+                            <div class="action">
+                                <a href="/products/shop/<%= data.id %>/buy "><button type="submit"
+                                        class="btn btn-warning">Buy Now</button></a>
+                                <a class="btn btn-danger" href="/products" role="button">Cancel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </body>
+
+    </html>

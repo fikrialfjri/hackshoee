@@ -1,0 +1,101 @@
+[
+    {
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/49372d49f1924f35ad6eac6300ba91a2_9366/QT_Racer_Sport_Shoes_Black_FY5680_01_standard.jpg",
+        "name": "QT RACER SPORT SHOES",
+        "size": "41",
+        "type": "sport",
+        "price": 850000,
+        "stock": 5
+    },
+    {
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d44fa06fc83f4644b7e8acbc01160e1b_9366/NMD_R1_Primeblue_Shoes_Black_GZ9258_01_standard.jpg",
+        "name": "NMD_R1 PRIMEBLUE SHOES",
+        "size": "43",
+        "type": "sneaker",
+        "price": 1750000,
+        "stock": 5
+
+    },
+    {
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/85001395f0e8462292a6ad2701752f10_9366/NMD_R1_V2_Damian_Lillard_Shoes_Black_GY3812_01_standard.jpg",
+        "name": "NMD_R1 V2 DAMIAN LILLARD SHOES",
+        "size": "44",
+        "type": "sneaker",
+        "price": 1750000,
+        "stock": 5
+
+    },
+    {
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/7d9ac17c410840a3b731ad3500bba8dc_9366/Ultraboost_5.0_DNA_Shoes_Grey_GY8535_01_standard.jpg",
+        "name": "ULTRABOOST 5.0 DNA SHOES",
+        "size": "42",
+        "type": "sneaker",
+        "price": 1990000,
+        "stock": 5
+
+    },
+    {
+        "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/7d9ac17c410840a3b731ad3500bba8dc_9366/Ultraboost_5.0_DNA_Shoes_Grey_GY8535_01_standard.jpg",
+        "name": "ULTRABOOST 5.0 DNA SHOES GRAY",
+        "size": "43",
+        "type": "sneaker",
+        "price": 1990000,
+        "stock": 5
+
+    },
+    {
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c10fcd90c433455e8f79ad0800cb4469_9366/NMD_R1_Primeblue_Shoes_Black_GZ9257_01_standard.jpg",
+        "name": "NMD_R1 PRIMEBLUE SHOES",
+        "size": "42",
+        "type": "sneaker",
+        "price": 1590000,
+        "stock": 5
+
+    },
+    {
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Forum_Low_Shoes_White_FY7756_01_standard.jpg",
+        "name": "FORUM LOW SHOES",
+        "size": "44",
+        "type": "sneaker",
+        "price": 1050000,
+        "stock": 5
+
+    },
+   
+    {
+        "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6a7f6e03-dfc1-4474-b72a-aa385d32e417/zoomx-dragoy-racing-spike-mKMFbB.png",
+        "name": "Nike ZoomX Dragonfly",
+        "size": "43",
+        "type": "sport",
+        "price": 2279000,
+        "stock": 5
+
+    },
+    {
+        "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/32da54aa-4131-4107-80dc-0df49ff127e2/air-zoom-pegasus-38-running-shoes-Hmsj6Q.png",
+        "name": "Nike Air Zoom Pegasus 38",
+        "size": "42",
+        "type": "sport",
+        "price": 1799990,
+        "stock": 5
+
+    },
+    {
+        "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/00a290a6-0b56-4692-b5f4-61a0a759e13a/star-runner-3-older-running-shoe-S0BkrH.png",
+        "name": "Nike Star Runner 3",
+        "size": "40",
+        "type": "sport",
+        "price": 729000,
+        "stock": 5
+
+    },
+    {
+        "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ca80a004-42fc-4c46-ae55-fc00d0d48d78/renew-run-2-older-shoes-dJXn8p.png",
+        "name": "Nike Renew Run 2",
+        "size": "39",
+        "type": "sport",
+        "price": 979000,
+        "stock": 5
+
+    }
+]

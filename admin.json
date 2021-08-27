@@ -1,0 +1,12 @@
+[
+    {
+        "email": "admin@hacktiv8.com",
+        "password":"hacktiv8",
+        "first_name":"super",
+        "last_name":"user",
+        "age":"20",
+        "gender":"Male",
+        "address":"hacktiv8",
+        "tag": "admin"
+    }
+]

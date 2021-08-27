@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+            <% data.Products.forEach(el=> { %>
+                    <tr>
+                        <td>
+                            <%= el.name %>
+                        </td>
+                        <td>
+                            <%= el.size %>
+                        </td>
+                        <td>
+                            <%= el.tag %>
+                        </td>
+                        <td>
+                            <%= el.price %>
+                        </td>
+                    </tr>
+                    <% }); %>
+                        <tr>
+                            <td>Total</td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                            </td>
+                        </tr>
+                        <a href="/products/buy-all"><button>Buy Now</button></a>
+                        <input type="submit" value="Buy Now">
+</table>
+</body>
+
+</html> -->
+
+<%- include("../../partials/head.ejs", {href: "http://localhost:3000/css/products/products-carts.css" ,
+    title: "Your Carts | HackShoee" }) %>
+
+    <body>
+        <%- include("../../partials/users/navigation.ejs") %>
+            <div class="main-container">
+                <h1>Your Carts</h1>
+                <a class="btn add-movie bg-warning" href="/products/pay-all" role="button">Pay All</a>
+                <table class="table table-striped">
+                    <thead style="background-color: #FFC107;">
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-dark">
+                        <% let total=0 %>
+                            <% data.Products.forEach(element=> { %>
+                                <% total +=element.price %>
+                                    <tr>
+                                        <td>
+                                            <%= element.name %>
+                                        </td>
+                                        <td>
+                                            <%= element.size %>
+                                        </td>
+                                        <td>
+                                            <%= element.type %>
+                                        </td>
+                                        <td>
+                                            <%= element.price %>
+                                        </td>
+                                    </tr>
+                                    <% }); %>
+                                        <tr>
+                                            <td style="opacity: 0; border-bottom: 0;"></td>
+                                            <td style="opacity: 0; border-bottom: 0;"></td>
+                                            <td>
+                                                Subtotal
+                                            </td>
+                                            <td>
+                                                <%= total %>
+                                            </td>
+                                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </body>
+
+    </html>

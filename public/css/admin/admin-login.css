@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: beige;
+    height: 100vh;
+    color: white;
+}
+
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding: 20px;
+    background-color: #171717;
+    border-radius: 2vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 550;
+    margin: 20px 20px 40px;
+}
+
+.mb-3 {
+    margin: 0 20px;
+}
+
+.submit-btn input {
+    margin-top: 40px;
+    width: 100%;
+}

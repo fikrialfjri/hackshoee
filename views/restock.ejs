@@ -1,0 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Restock Shoes</h1>
+    <form action="/admin/products/outofstock/restock/<%= data.id %>" method="POST">
+        <label for="stock">Restock</label><br>
+        <input name="stock" type="number" value="<%=data.stock%> "><br> <br>
+        <button type="submit">Save</button>
+        <button type="reset">Cancel</button>
+    </form>
+</body>
+</html> -->
+
+<%- include("./partials/head.ejs", {href: "http://localhost:3000/css/admin/admin-products-restock.css" ,
+    title: "Add Shoe : HackShoee" }) %>
+
+    <body>
+        <%- include("./partials/admin/admin-navigation.ejs") %>
+            <div class="main-container">
+                <h1>Restock</h1>
+                <form action="/admin/products/add" method="POST">
+                    <div class="form">
+                        <div class="mb-3">
+                            <label for="stock" class="form-label">Stock</label>
+                            <input type="number" name="stock" class="form-control" id="stock">
+                        </div>
+                        <div class="mb-3 submit-btn">
+                            <input class="btn btn-warning" type="submit" value="Submit">
+                            <input class="btn btn-danger" type="reset" value="Cancel">
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </body>
+
+    </html>

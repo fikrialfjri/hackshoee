@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: beige;
+    height: 100vh;
+    color: #171717;
+}
+
+.main-container {
+    width: 90%;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.shop-page {
+    display: flex;
+}
+
+.img-container {
+    width: 45%;
+    padding-right: 20px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.main {
+    width: 45%;
+    padding-left: 20px;
+}
+
+.main .title {
+    padding: 10px;
+    height: 26%;
+}
+
+.main h1 {
+    font-weight: 550;
+    font-size: 2.2rem;
+}
+
+.main .price p {
+    font-size: 1.5rem;
+}
+
+.main .desc {
+    padding: 10px;
+    height: 40%;
+    font-size: 1.3rem;
+}
+
+.main .info {
+    padding: 10px;
+    font-size: 1.4rem;
+    height: 15%;
+}
+
+.main span {
+    font-weight: 550;
+}
+
+.main .action {
+    height: 19%;
+}

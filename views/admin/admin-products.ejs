@@ -1,0 +1,42 @@
+<%- include("../partials/head.ejs", {href: "http://localhost:3000/css/admin/admin-products.css" ,
+  title: "Admin-Products | HackShoee" }) %>
+
+  <body>
+    <%- include("../partials/admin/admin-navigation.ejs") %>
+      <div class="main-container">
+        <h1>List Movies</h1>
+        <a class="btn add-movie bg-warning" href="/admin/products/add" role="button">Add Shoe</a>
+        <table class="table table-striped">
+          <thead style="background-color: #FFC107;">
+            <tr>
+              <th scope="col">Image</th>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Stock</th>
+            </tr>
+          </thead>
+          <tbody class="table-dark">
+            <% if (data) { %>
+              <% data.forEach(element=> { %>
+                <tr>
+                  <td>
+                    <img src="<%= element.img %>" alt="jejeng" height="100px" width="100px">
+                  </td>
+                  <td>
+                    <%= element.name %>
+                  </td>
+                  <td>
+                    <%= element.price %>
+                  </td>
+                  <td>
+                    <%= element.stock %>
+                  </td>
+                </tr>
+                <% }); %>
+                  <% } %>
+          </tbody>
+        </table>
+      </div>
+  </body>
+
+  </html>

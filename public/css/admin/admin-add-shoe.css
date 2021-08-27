@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: beige;
+    height: 100vh;
+    color: #171717;
+}
+
+.main-container {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 2vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 550;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mb-3 {
+    margin: 0 20px;
+}
+
+.submit-btn, .reset-btn {
+    margin-top: 40px;
+}
+
+.submit-btn input {
+    position: relative;
+    right: -10px;
+    float: right;
+    width: 30%;
+}
+
+.reset-btn input {
+    position: relative;
+    float: left;
+    left: -10px;
+    width: 30%;
+}

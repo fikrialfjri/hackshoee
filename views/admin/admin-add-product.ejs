@@ -1,0 +1,57 @@
+<%- include("../partials/head.ejs", {href: "http://localhost:3000/css/admin/admin-add-shoe.css" ,
+    title: "Add Shoe : HackShoee" }) %>
+
+    <body>
+        <%- include("../partials/admin/admin-navigation.ejs") %>
+            <div class="main-container">
+                <h1>Add Shoe</h1>
+                <form action="/admin/products/add" method="POST">
+                    <div class="form">
+                        <div class="mb-3">
+                            <label for="img" class="form-label">Image</label>
+                            <input type="text" name="img" class="form-control" placeholder="e.g: Hachi.jpg" id="img">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Product Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="e.g: Dragon Shoe"
+                                id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="type" class="form-label">Type</label>
+                            <input type="text" name="type" class="form-control" placeholder="e.g: Sneakers" id="type">
+                        </div>
+                        <div class="mb-3">
+                            <label for="size" class="form-label">Size</label>
+                            <select class="form-select" id="size" name="size" aria-label="Default select example">
+                                <option disabled selected>-- Select ---</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <div class="mb-3">
+                            <label for="price" class="form-label">Price</label>
+                            <input type="number" name="price" class="form-control" id="price">
+                        </div>
+                        <div class="mb-3">
+                            <label for="stock" class="form-label">Stock</label>
+                            <input type="number" name="stock" class="form-control" id="stock">
+                        </div>
+                        <div class="mb-3 submit-btn">
+                            <input class="btn btn-warning" type="submit" value="Submit">
+                        </div>
+                        <div class="mb-3 reset-btn">
+                            <input class="btn btn-danger" type="reset" value="Cancel">
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </body>
+
+    </html>

@@ -1,0 +1,29 @@
+<%- include("../../partials/head.ejs", {href: "http://localhost:3000/css/products/products.css" ,
+    title: "Products | HackShoee" }) %>
+
+    <body>
+        <%- include("../../partials/users/navigation.ejs") %>
+            <div class="main-container">
+                <% data.forEach(element=> { %>
+                    <div class="list-products">
+                        <div class="img-container">
+                            <img src=<%=element.img %>>
+                            <p>
+                                <%= element.size %>
+                            </p>
+                        </div>
+                        <div class="title">
+                            <h1>
+                                <%= element.name %>
+                            </h1>
+                        </div>
+                        <p>
+                            <%= element.price %>
+                        </p>
+                        <a href='/products/shop/<%= element.id %> '>Beli Sekarang</a>
+                    </div>
+                    <% }) %>
+            </div>
+    </body>
+
+    </html>
